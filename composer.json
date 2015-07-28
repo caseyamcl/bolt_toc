@@ -1,0 +1,27 @@
+{
+    "name": "caseyamcl/bolt_toc",
+    "description": "Adds ability to create a table of contents in your theme content",
+    "type": "bolt-extension",
+    "require": {
+        "bolt/bolt": ">=2.0.0,<3.0.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Casey McLaughlin", 
+            "email": "caseyamcl@gmail.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "init.php"
+        ],
+        "psr-4": {
+            "Bolt\\Extension\\CaseyAMcL\\TOC\\": ""
+        }
+    },
+    
+    "extra": {
+        "bolt-assets": "assets"
+    }
+}
